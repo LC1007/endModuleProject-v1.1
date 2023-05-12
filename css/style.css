@@ -278,10 +278,12 @@ footer{
 
 /* About Me Queries */
 
-@media screen and (min-width: 700px) {
-    /* About Me */
 
-    .about-me-section, #about-me-section{
+@media (width > 700px) {
+
+     /* About Me */
+
+     .about-me-section, #about-me-section{
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
     }
@@ -296,10 +298,7 @@ footer{
     .grid-contact-1{
         grid-column: 2 / 9;
     }
-
-}
-
-@media (width >= 1024px ) {
+    /* Contact  */
     .grid-contact{
         display: grid;
         grid-template-columns: repeat(9, 1fr);
@@ -326,6 +325,24 @@ footer{
 }
 
 @media (width <= 700px) {
+
+    /* Eduction */
+
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-wrapper .center-line{
+        left: 40px;
+        border-bottom: 101rem;
+        border-style: solid;
+        border-color: var(--primaryColor);
+    }
+    
+    .duration-date{
+        margin: .6rem 0;  
+    }
 
     .custom-wrapper .custom-row{
         margin: 30px 0 3px 60px;
@@ -405,26 +422,4 @@ footer{
     .sec3 > a{
         font-size: .8rem;
     }
-}
-
-@media (max-width: 500px) {
-    .details{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .custom-wrapper .center-line{
-        left: 40px;
-        border-bottom: 101rem;
-        border-style: solid;
-        border-color: var(--primaryColor);
-    }
-    
-    .duration-date{
-        margin: .6rem 0;  
-    }
-
-    /* Skills Mobile Section */
-
-    
 }
