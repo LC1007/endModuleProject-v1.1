@@ -16,6 +16,21 @@
     /* overflow-x: hidden; */
 }
 
+.animation{
+    opacity: 1;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .ft-size{
     font-size: 1rem;
 }
@@ -172,5 +187,16 @@ footer{
     .sec2 > a, 
     .sec3 > a{
         font-size: .8rem;
+    }
+
+    .mobile-flex{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: .8rem;
+    }
+
+    .width{
+        width: 92.5%;
     }
 }
