@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/cdb5c10fb9.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6f127b9c8c.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -64,76 +65,65 @@
                     <h2>About Me</h2>
                     <p>My name is Justin Scholtz and web development has been a passion of mine ever since 2016 when I attended a intro to web development at a company called Rlabs, we did a month long course where we were introduced to HTML and CSS. What made me realize it was my passion was the amount of times I could of given up but didn't, I still had that fire in me to succeed the challenges and become a front end web developer. My journey consists of me joining a bootcamp and self studing, over my journey I've reached a point where I'm very comfortable with HTML and CSS but I'm still learning the ropes of JavaScript, I would love to then grow my VUE JS skills as my JS framework to broaden my skill set. I now feel like I'm ready to take on the next step in my journey and find employement as front end developer, Life Choices prepared me well for the next stage of my life so I'm ready for anything and everything.</p>
                     <!-- Button trigger modal -->
-                    <div class="d-flex justify-content-center mt-5">
+                    <div class="d-flex justify-content-center"> 
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Read More
-                          </button>
+                          Read More
+                        </button>
                     </div>
-                      <!-- Modal -->
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h1 class="modal-title fs-5" id="exampleModalLabel">Justin Scholtz</h1>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                               <div role="tabpanel" class="d-flex m-5 justify-content-center mobile-flex">
-  <!-- List group -->
-  <div class="list-group me-5" id="myList" role="tablist">
-    <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home" role="tab">Personal Details</a>
-    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#profile" role="tab">Passion Board</a>
-    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#messages" role="tab">Soft Skills</a>
-    <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#settings" role="tab">Technical Skills</a>
-  </div>
 
-  <!-- Tab panes -->
-  <div class="tab-content width">
-    <div class="tab-pane active" id="home" role="tabpanel">
-        <ul class="list-group width">
-  <li class="list-group-item">DOB: 29 September 1998</li>
-  <li class="list-group-item">Gender: Male</li>
-  <li class="list-group-item">Location: Bridgetown, Cape Town</li>
-  <li class="list-group-item">Cell Number: 061 7819 282</li>
-  <li class="list-group-item">Email Address: scholtz0929@gmail.com</li>
-  <li class="list-group-item">Willing to Relocate: Yes</li>
-  <li class="list-group-item">GitHub: https://github.com/LC1007</li>
-  <li class="list-group-item">LinkedIn: https://www.linkedin.com/in/justin-scholtz-08403713a</li>
-</ul>
-    </div>
-    <div class="tab-pane" id="profile" role="tabpanel"> <ul class="list-group">
-  <li class="list-group-item">Soccer</li>
-  <li class="list-group-item">Breaking & fixing computers</li>
-  <li class="list-group-item">Like building things</li>
-  <li class="list-group-item">Playing video games</li>
-  <li class="list-group-item">Sports</li>
-  <li class="list-group-item">Creating personal websites</li>
-</ul></div>
-    <div class="tab-pane" id="messages" role="tabpanel"> <ul class="list-group">
-  <li class="list-group-item">Work well with a team</li>
-  <li class="list-group-item">Have communication skills</li>
-  <li class="list-group-item">Highly motivated person</li>
-</ul></div>
-    <div class="tab-pane" id="settings" role="tabpanel"> <ul class="list-group">
-  <li class="list-group-item">HTML5</li>
-  <li class="list-group-item">CSS3</li>
-  <li class="list-group-item">JavaScript</li>
-  <li class="list-group-item">Microsoft Suite</li>
-  <li class="list-group-item">AD Servers</li>
-  <li class="list-group-item">Hardware maintainance</li>
-</ul></div>
-  </div>
-</div>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Justin Scholtz</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <ul class="list-group">
+                                <li class="list-group-item fw-bold bg-black text-white">Personal Details</li>
+                                <li class="list-group-item">DOB: 29 September 1998</li>
+                                <li class="list-group-item">Gender: Male</li>
+                                <li class="list-group-item">Location: Bridgetown, Cape Town</li>
+                                <li class="list-group-item">Cell number: 061 781 9282</li>
+                                <li class="list-group-item">Email Address: scholtz0929@gmail.com</li>
+                                <li class="list-group-item">Willing to Relocate: Yes</li>
+                                <li class="list-group-item">GitHub: https://github.com/Justin0929m</li>
+                                <li class="list-group-item">LinkedIn: https://www.linkedin.com/in/justin-scholtz-08403713a</li>
+                            </ul>
+                             <ul class="list-group">
+                                <li class="list-group-item fw-bold bg-black text-white mt-3">Passion</li>
+                                <li class="list-group-item">Soccer</li>
+                                <li class="list-group-item">Playing video games</li>
+                                <li class="list-group-item">Breaking & fixing computers</li>
+                                <li class="list-group-item">Tinkering</li>
+                                <li class="list-group-item">Hiking</li>
+                                <li class="list-group-item">Quality time with family and friends</li>
+                            </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item fw-bold bg-black text-white mt-3">Soft Skills</li>
+                                <li class="list-group-item">Can work well with others and group work</li>
+                                <li class="list-group-item">Have good communication skills</li>
+                                <li class="list-group-item">Highly movtivated person</li>
+                                <li class="list-group-item">Time management</li>
+                            </ul>
+                             <ul class="list-group">
+                                <li class="list-group-item fw-bold bg-black text-white mt-3">Technical Skills</li>
+                                <li class="list-group-item">AD Server</li>
+                                <li class="list-group-item">AWS & Azure</li>
+                                <li class="list-group-item">Microsoft Suite</li>
+                                <li class="list-group-item">Technical Support</li>
+                                <li class="list-group-item">HTML5</li>
+                                <li class="list-group-item">CSS5</li>
+                                <li class="list-group-item">JavaScript</li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                           </div>
                         </div>
                       </div>
-                </div>
-            </div>
-        </div>
+                    </div>
     </section>
 
     <!-- Education Section -->
@@ -252,6 +242,8 @@
                         <div class="card-body bg-primary-color">
                             <h5 class="card-title" id="text-color-white">Project 1</h5>
                             <p class="card-text" id="text-color-white">We created this website to showcase our CSS animation skills</p>
+                            <a href="https://class-exercise007.netlify.app" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-solid fa-arrow-up-right-from-square me-1" style="color: #ffffff;"></i>Live</a>
+                            <a href="https://github.com/LC1007/website-exercise.git" target="_blank" class="text-white text-decoration-none"><i class="fa-brands fa-github me-1" style="color: #ffffff;"></i>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -261,6 +253,8 @@
                         <div class="card-body bg-primary-color">
                             <h5 class="card-title" id="text-color-white">Project 2</h5>
                             <p class="card-text" id="text-color-white">This was our first try at using bootstrap to create a portfolio website.</p>
+                             <a href="https://voluble-pothos-23ef70.netlify.app/" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-solid fa-arrow-up-right-from-square me-2" style="color: #ffffff;"></i>Live</a>
+                            <a href="https://github.com/LC1007/EXERCISE-PORTFOLIO.git" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-brands fa-github me-2" style="color: #ffffff;"></i>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -269,7 +263,9 @@
                         <img src="https://i.postimg.cc/cLTBLb6r/tempsnip.png" alt="a screenshot of my website I've created" class="card-img-top img-fluid" loading="lazy">
                         <div class="card-body bg-primary-color">
                             <h5 class="card-title" id="text-color-white">Project 3</h5>
-                            <p class="card-text" id="text-color-white">I recreated a website design from pinterest.</p>
+                            <p class="card-text pb-4" id="text-color-white">I recreated a website design from pinterest.</p>
+                             <a href="https://github.com/Justin0929m/travel-website.git" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-solid fa-arrow-up-right-from-square me-2" style="color: #ffffff;"></i>Live</a>
+                            <a href="https://1travelwebsite1.netlify.app" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-brands fa-github me-2" style="color: #ffffff;"></i>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -279,6 +275,8 @@
                         <div class="card-body bg-primary-color">
                             <h5 class="card-title" id="text-color-white">Project 4</h5>
                             <p class="card-text" id="text-color-white">This is one of my portfolio projects that I've created</p>
+                             <a href="https://myportfoliobro.netlify.app" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-solid fa-arrow-up-right-from-square me-1" style="color: #ffffff;"></i>Live</a>
+                            <a href="https://github.com/Justin0929m/final-portfolio.git" target="_blank" class="me-3 text-decoration-none text-white"><i class="fa-brands fa-github me-2" style="color: #ffffff;"></i>GitHub</a>
                         </div>
                     </div>
                 </div>
