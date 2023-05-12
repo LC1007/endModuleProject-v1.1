@@ -12,6 +12,7 @@
     /* color-scheme: dark light; */
     scroll-behavior: smooth;
     scroll-snap-type: proximity;
+    /* overflow-x: hidden; */
 }
 
 .m-10{
@@ -185,10 +186,10 @@ header{
 
 .pro-bar{
     position: absolute;
-    width: 100%;
+    margin: auto;
     top: 0;
     z-index: 0;
-    left: 2.5rem;
+    /* left: 2.5rem; */
 }
 
 .floating-click{
@@ -292,6 +293,10 @@ footer{
         padding-bottom: 5rem;
     }
 
+    .grid-contact-1{
+        grid-column: 2 / 9;
+    }
+
 }
 
 @media (width >= 1024px ) {
@@ -320,24 +325,7 @@ footer{
     }
 }
 
-@media (max-width: 768px) {
-
-    .grid-contact-1{
-        grid-column: 2 / 9;
-    }
-
-    .grid-contact-2{
-        display: none;
-    }
-}
-
 @media (width <= 700px) {
-    .custom-wrapper .center-line{
-        left: 40px;
-        border-bottom: 65rem;
-        border-style: solid;
-        border-color: var(--primaryColor);
-    }
 
     .custom-wrapper .custom-row{
         margin: 30px 0 3px 60px;
@@ -353,14 +341,6 @@ footer{
     .custom-row-1 section .custom-icon{
         left: -60px;
     }
-
-    /* Project Mobile Section */
-
-    /* .project-flex{
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    } */
 
     /* Skills */
     .skills{
