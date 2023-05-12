@@ -279,7 +279,7 @@ footer{
 /* About Me Queries */
 
 
-@media (width > 700px) {
+@media (width > 43.75em) {
 
      /* About Me */
 
@@ -290,7 +290,7 @@ footer{
 
     /* Skills */
 
-    .skills{
+    #skills{
         height: 100%;
         padding-bottom: 5rem;
     }
@@ -324,7 +324,7 @@ footer{
     }
 }
 
-@media (width <= 700px) {
+@media (width < 43.75em) {
 
     /* Eduction */
 
@@ -360,10 +360,10 @@ footer{
     }
 
     /* Skills */
-    .skills{
-        height: 100%;
+    /* #skills{
+        height: 100svh;
         padding-bottom: 5rem;
-    }
+    } */
 
     .floating-hover{
         display: none;
@@ -371,6 +371,12 @@ footer{
 
     .floating-click{
         display: block;
+    }
+
+    /* Testimonial */
+
+    #testimonials{
+        height: 100svh;
     }
 
     /* Contact Me Media Queries */
