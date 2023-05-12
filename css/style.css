@@ -429,12 +429,3 @@ footer{
         font-size: .8rem;
     }
 }
-
-@media (width >= 18.75em) {
-    .footer{
-        display: flex;
-        flex-direction: column;
-        height: 75svh;
-        background-color: var(--secondaryColor);
-    }
-}
